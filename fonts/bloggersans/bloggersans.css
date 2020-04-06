@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersans.eot');
+    src: url('../fonts/bloggersans/Bloggersans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersans.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersans.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersans.svg#Corbel') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersansbold.eot');
+    src: url('../fonts/bloggersans/Bloggersansbold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersansbold.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersansbold.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersansbold.svg#Corbel') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersansbolditalic.eot');
+    src: url('../fonts/bloggersans/Bloggersansbolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersansbolditalic.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersansbolditalic.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersansbolditalic.svg#Corbel') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersansitalic.eot');
+    src: url('../fonts/bloggersans/Bloggersansitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersansitalic.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersansitalic.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersansitalic.svg#Corbel') format('svg');
+     font-weight: 400;
+     font-style: italic;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersanslight.eot');
+    src: url('../fonts/bloggersans/Bloggersanslight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersanslight.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersanslight.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersanslight.svg#Corbel') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersanslightitalic.eot');
+    src: url('../fonts/bloggersans/Bloggersanslightitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersanslightitalic.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersanslightitalic.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersanslightitalic.svg#Corbel') format('svg');
+      font-weight: 300;
+      font-style: italic;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersansmedium.eot');
+    src: url('../fonts/bloggersans/Bloggersansmedium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersansmedium.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersansmedium.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersansmedium.svg#Corbel') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Bloggersansmediumitalic.eot');
+    src: url('../fonts/bloggersans/Bloggersansmediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bloggersans/Bloggersansmediumitalic.woff') format('woff'),
+         url('../fonts/bloggersans/Bloggersansmediumitalic.ttf') format('truetype'),
+         url('../fonts/bloggersans/Bloggersansmediumitalic.svg#Corbel') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}

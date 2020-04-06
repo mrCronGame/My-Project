@@ -1,0 +1,524 @@
+header {
+    @include box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 92px;
+    background: rgba(255, 253, 247, 0.3);
+
+    @media (max-width: 320px) {
+        width: 100%;
+        height: 70px;
+    }
+
+    .social-mob {
+        display: none;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        padding: 7px 10px 0 0;
+
+        ul {
+            @include box;
+            text-align: center;
+        }
+
+        li {
+            float: right;
+            text-align: left;
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 20px;
+            position: relative;
+            margin: 0 25px 0 0;
+            cursor: pointer;
+            transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            &:hover {
+                transition: all 0.5s linear;
+                -webkit-transition: all 0.5s linear;
+                -moz-transition: all 0.5s linear;
+                -ms-transition: all 0.5s linear;
+                -o-transition: all 0.5s linear;
+            }
+
+            @media (max-width: 1000px) {
+                margin: 20px 25px 0 0;
+            }
+
+            @media (max-width: 400px) {
+                margin: 20px 12px 0 0;
+            }
+
+
+            &.fb {
+                background-image: url(../images/ico_fb.png);
+
+                &:hover {
+                    background-image: url(../images/ico_fb_hover.png);
+                }
+            }
+
+            &.inst {
+                background-image: url(../images/ico_instg.png);
+
+                &:hover {
+                    background-image: url(../images/ico_instg_hover.png);
+                }
+            }
+
+            &.tg {
+                background-image: url(../images/ico_tg.png);
+
+                &:hover {
+                    background-image: url(../images/ico_tg_hover.png);
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            float: right;
+            margin: 0 70px 0 0;
+        }
+
+        @media (max-width: 768px) {
+            text-align: left;
+            float: right;
+            margin: 0 70px 0 0;
+        }
+
+        @media (max-width: 500px) {
+            text-align: left;
+            float: right;
+            margin: 0 25px 0 0;
+        }
+
+        @media (max-width: 400px) {
+            text-align: left;
+            float: right;
+            margin: 0 25px 0 0;
+        }
+
+        @media (max-width: 320px) {
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        display: block;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    @media (max-width: 1000px) {
+        height: 85px;
+        background-color: #70522C;
+        overflow: visible;
+        position: fixed;
+    }
+
+    .bg-rgb {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45%;
+        height: 92px;
+        display: block;
+        overflow: hidden;
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .logo {
+        @include box;
+        position: relative;
+        float: left;
+        width: 230px;
+        margin: 5px 0 0 0;
+
+        @media (max-width: 1366px) {
+            margin: 5px 0 0 0;
+        }
+
+        @media (max-width: 1000px) {
+            margin: 0 0 0 25px;
+        }
+
+        @media (max-width: 768px) {
+            display: block;
+            width: 180px;
+            margin: 15px 50px 0 40px;
+        }
+
+        @media (max-width: 700px) {
+            display: none;
+        }
+
+        @media (max-width: 500px) {
+            display: none;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .logo_mob {
+        display: none;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 47px;
+
+        h4 {
+            display: none;
+        }
+
+        img {
+            display: block;
+            width: 47px;
+            height: 47px;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        @media (max-width: 700px) {
+            display: block;
+            width: 15%;
+            margin: 20px 0 0 25px;
+        }
+
+        @media (max-width: 500px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 15%;
+            margin: 20px 0 0 25px;
+        }
+
+        @media (max-width: 414px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 15%;
+            margin: 15px 0 0 25px;
+        }
+
+        @media (max-width: 400px) {
+            margin: 15px 0 0 25px;
+        }
+
+        @media (max-width: 320px) {
+            margin: 20px 0 0 20px;
+        }
+    }
+
+    nav {
+        float: right;
+
+        @media (max-width: 1400px) {
+            margin: 0 -20px 0 0;
+        }
+
+        @media (max-width: 1300px) {
+            margin: 0 -20px 0 0;
+        }
+
+        @media (max-width: 1280px) {
+            display: block;
+            //возможно дублировать нижние значения
+        }
+
+        @media (max-width: 1200px) {
+            margin: 0 0 0 0;
+        }
+
+        @media (max-width: 1000px) {
+            display: none;
+            top: -85px;
+            margin: 0;
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+        &.open {
+            position: fixed;
+            top: 85px;
+            right: 0;
+            width: 100%;
+            height: 85px;
+            background-color: rgba(112, 82, 44, 0.7);
+            display: block;
+            transition: all 1s ease-in-out;
+
+            @media (max-width: 767px) {
+                width: 50%;
+                height: calc(100vh - 85px);
+            }
+        }
+
+        ul {
+            @include box;
+
+            @media (max-width: 1000px) {
+                text-align: center;
+            }
+
+            @media (max-width: 767px) {
+                text-align: right;
+            }
+        }
+
+        li {
+            text-align: left;
+            float: left;
+            margin: 35px 0 0 40px;
+
+            @media (max-width: 1280px) {
+                margin: 35px 25px 0 0;
+            }
+
+            @media (max-width: 1200px) {
+                margin: 35px 15px 0 0;
+            }
+
+            @media (max-width: 1000px) {
+                float: none;
+                display: inline-block;
+            }
+
+            @media (max-width: 768px) {
+                margin: 35px 42px 0 0;
+            }
+
+            @media (max-width: 767px) {
+                margin: 35px 0 0 0;
+                float: right;
+                width: 100%;
+                padding: 0 25px 0 25px;
+                box-sizing: border-box;
+                text-align: right;
+            }
+        }
+
+        a {
+            display: block;
+            overflow: hidden;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 300;
+
+            @media (max-width: 1400px) {
+                font-size: 16px;
+            }
+
+            @media (max-width: 1366px) {
+                font-size: 16px;
+            }
+
+            &::after {
+                display: block;
+                content: '';
+                border-bottom: solid 3px #00ACD1;
+                transform: scaleX(0);
+                transition: transform 200ms ease-in-out;
+            }
+
+            &:hover {
+                &::after {
+                    transform: scaleX(1);
+                }
+            }
+
+            &:active {
+                color: #00ACD1;
+            }
+        }
+    }
+
+    .menu-btn {
+        display: none;
+        width: 50px;
+        height: 45px;
+        left: 0;
+        overflow: hidden;
+        margin: 25px 40px 0 0;
+        cursor: pointer;
+
+        &.on {
+            display: block;
+        }
+
+        @media (max-width: 1000px) {
+            display: block;
+            float: right;
+        }
+
+        @media (max-width: 767px) {
+            display: block;
+            float: right;
+        }
+
+        @media (max-width: 400px) {
+            margin: 25px 24px 0 0;
+        }
+
+        span {
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 10px;
+            display: block;
+            overflow: hidden;
+            float: right;
+            margin: 0 0 11px 0;
+
+            &:first-child {
+                width: 50%;
+            }
+
+            &:nth-child(2) {
+                width: 75%;
+            }
+
+            &:last-child {
+                width: 100%;
+            }
+        }
+    }
+
+    .lang {
+        display: block;
+        overflow: visible;
+        position: absolute;
+        top: -5px;
+        left: calc(55% - 40px);
+        text-align: center;
+        width: 25px;
+        height: 50px;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+        @media (max-width: 1000px) {
+            position: absolute;
+            width: 70px;
+            height: 25px;
+            top: 30px;
+            left: 35%;
+        }
+
+        @media (max-width: 768px) {
+            position: absolute;
+            width: 70px;
+            height: 25px;
+            margin: 0 50px 0 0;
+        }
+
+        @media (max-width: 700px) {
+            position: absolute;
+            width: 70px;
+            height: 25px;
+            margin: 0 0 0 -80px;
+        }
+
+        @media (max-width: 550px) {
+            position: absolute;
+            width: 70px;
+            height: 25px;
+            top: 100px;
+            margin: 0 0 0 -143px;
+        }
+
+        @media (max-width: 500px) {
+            position: absolute;
+            width: 70px;
+            height: 25px;
+            top: 100px;
+            margin: 0 0 0 -140px;
+        }
+
+
+        @media (max-width: 414px) {
+            margin: 0 0 0 -120px;
+        }
+
+        @media (max-width: 400px) {
+            margin: 0 0 0 -105px;
+        }
+
+        @media (max-width: 320px) {
+            margin: 0 0 0 -90px;
+        }
+
+        &.dn {
+            @media (max-width: 500px) {
+                display: none;
+            }
+        }
+
+        a {
+            float: left;
+            width: 25px;
+            height: 25px;
+            margin: 0 0 10px 0;
+            box-shadow: 0px 5px 10px#545454;
+            border-radius: 50%;
+
+            @media (max-width: 1000px) {
+                display: block;
+                overflow: hidden;
+            }
+
+            &:first-child {
+                margin: 20px 0 10px 0;
+
+                @media (max-width: 1000px) {
+                    margin: 1px 20px 0 0;
+                }
+            }
+
+            &:hover {
+                -webkit-box-shadow: -0px 5px 10px 1px #bebebe;
+                box-shadow: -0px 5px 10px 1px #bebebe;
+                color: #000000;
+                opacity: 0.5;
+            }
+        }
+    }
+}

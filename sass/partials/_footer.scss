@@ -1,0 +1,440 @@
+footer {
+    @include box;
+    position: relative;
+    height: 208px;
+    background: #70522C;
+    overflow: hidden;
+
+    @media (max-width: 1000px) {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        height: auto;
+        margin: -50px 0 0 0;
+    }
+
+    @media (max-width: 500px) {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        height: auto;
+        margin: -50px 0 0 0;
+    }
+
+    @media (max-width: 320px) {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        height: auto;
+        margin: -50px 0 0 0;
+    }
+
+    .logotype {
+        float: left;
+        width: 230px;
+        margin: 70px 0 0 0;
+
+        @media (max-width: 1366px) {
+            margin: 60px 0 0 0;
+        }
+
+        @media (max-width: 768px) {
+            display: block;
+            width: 180px;
+            margin: 53px 90px 55px 39px;
+        }
+
+        @media (max-width: 500px) {
+            display: none;
+        }
+
+        a {
+            float: left;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .logo-mob {
+        float: left;
+        width: 128px;
+        height: 40px;
+        margin: 70px 0 0 0;
+
+        @media (max-width: 1920px) {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        @media (max-width: 500px) {
+            display: block;
+            margin: 30px 30px 0 10px;
+        }
+
+        @media (max-width: 414px) {
+            display: block;
+            margin: 31px 0 0 29px;
+        }
+
+        @media (max-width: 411px) {
+            display: block;
+            margin: 31px 0 0 29px;
+        }
+
+        @media (max-width: 360px) {
+            display: block;
+            margin: 31px 0 0 29px;
+        }
+
+        @media (max-width: 320px) {
+            display: block;
+            margin: 31px 0 0 29px;
+        }
+
+        a {
+            float: left;
+        }
+
+        img {
+            width: 128px;
+            height: 40px;
+        }
+    }
+
+    #contacts {
+        float: right;
+        width: 204px;
+        height: 129px;
+        margin-top: 37px;
+        text-align: center;
+
+
+        @media (max-width: 1024px) {
+            margin: 25px 0 0 0;
+        }
+
+        @media (max-width: 1000px) {
+            margin: 25px 100px 0 0;
+        }
+
+        @media (max-width: 768px) {
+            margin: 31px 99px 0 0;
+        }
+
+        @media (max-width: 767px) {
+            margin: 31px 99px 0 0;
+        }
+
+
+        @media (max-width: 500px) {
+            margin: 20px 160px 0 0;
+        }
+
+        @media (max-width: 414px) {
+            margin: 16px 115px 0 0;
+        }
+
+        @media (max-width: 400px) {
+            margin: 16px 100px 0 0;
+        }
+
+        @media (max-width: 375px) {
+            margin: 16px 65px 0 0;
+        }
+
+        @media (max-width: 320px) {
+            margin: 16px 25px 0 0;
+        }
+
+        .location {
+            position: relative;
+            overflow: hidden;
+            float: left;
+            padding-bottom: 29px;
+
+            .map-marker {
+                display: block;
+                overflow: hidden;
+                position: relative;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                float: left;
+                margin: 0 14px 0 0;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+
+            }
+
+            p {
+                float: right;
+                font-family: Roboto Condensed;
+                font-size: 18px;
+                line-height: 21px;
+                color: #ffffff;
+
+                @media (max-width: 500px) {
+                    margin: 5px 0 0 0;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .phone_number {
+            position: relative;
+            overflow: hidden;
+            float: left;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+
+            .mobile {
+                display: block;
+                overflow: hidden;
+                position: relative;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                float: left;
+                margin: 0 14px 0 0;
+
+            }
+
+            ul {
+                float: right;
+                margin: -30px 0 0 0;
+
+                @media (max-width: 768px) {
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 500px) {
+                    margin: -5px 0 0 0;
+                }
+
+                li {
+                    text-align: center;
+                    color: #ffffff;
+                    margin: 7px 0 0 0;
+
+                    @media (max-width: 768px) {
+                        margin: 0 auto;
+                    }
+
+                    p {
+                        font-family: Roboto Condensed;
+                        font-size: 18px;
+                        font-weight: 300;
+
+                        @media (max-width: 768px) {
+                            margin: 7px 0 0 0;
+                            font-size: 14px;
+                        }
+
+                        @media (max-width: 500px) {
+                            margin: 7px 0 0 0;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            a {
+                display: block;
+                position: relative;
+                overflow: visible;
+                margin: 35px 0 0 0;
+
+                p {
+                    font-family: Roboto Condensed;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+
+                    @media (max-width: 1366px) {
+                        font-size: 16px;
+                    }
+
+                    @media (max-width: 500px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .socials {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        margin: 25px 0 0 86px;
+
+        @media (max-width: 1024px) {
+            margin: 15px 50px 0 100px;
+        }
+
+        @media (max-width: 1000px) {
+            margin: 0 100px 0 0;
+        }
+
+        @media (max-width: 768px) {
+            margin: 15px 100px 0 0;
+        }
+
+        @media (max-width: 767px) {
+            margin: 15px 70px 0 0;
+        }
+
+
+        @media (max-width: 500px) {
+            margin: 20px 50px 0 0;
+        }
+
+        @media (max-width: 414px) {
+            margin: 20px 15px 0 0;
+        }
+
+        @media (max-width: 375px) {
+            margin: 19px 15px 0 0;
+        }
+
+        @media (max-width: 320px) {
+            margin: 19px 15px 0 0;
+        }
+
+        ul {
+            @include box;
+            position: relative;
+        }
+
+        li {
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            width: 25px;
+            height: 25px;
+            margin: 0 0 10px 0;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            @media (max-width: 500px) {
+                width: 35px;
+                height: 35px;
+            }
+
+            @media (max-width: 414px) {
+                width: 35px;
+                height: 35px;
+            }
+
+
+            @media (max-width: 400px) {
+                width: 35px;
+                height: 35px;
+            }
+
+            @media (max-width: 375px) {
+                width: 35px;
+                height: 35px;
+            }
+
+            @media (max-width: 320px) {
+                width: 35px;
+                height: 35px;
+            }
+
+            &:hover {
+                transition: all 0.5s linear;
+                -webkit-transition: all 0.5s linear;
+                -moz-transition: all 0.5s linear;
+                -ms-transition: all 0.5s linear;
+                -o-transition: all 0.5s linear;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.fb {
+                background-image: url(../images/ico_fb.png);
+
+                &:hover {
+                    background-image: url(../images/ico_fb_hover.png);
+                }
+            }
+
+            &.inst {
+                background-image: url(../images/ico_instg.png);
+
+                &:hover {
+                    background-image: url(../images/ico_instg_hover.png);
+                }
+            }
+
+            &.tg {
+                background-image: url(../images/ico_tg.png);
+
+                &:hover {
+                    background-image: url(../images/ico_tg_hover.png);
+                }
+            }
+
+            &.yout {
+                background-image: url(../images/youtube.png);
+
+                &:hover {
+                    background-image: url(../images/ico_yt_hover.png);
+                }
+            }
+
+            &.prom {
+                background-image: url(../images/prom.png);
+
+                &:hover {
+                    background-image: url(../images/ico_prom_hover.png);
+                }
+            }
+
+            a {
+                display: block;
+                position: absolute;
+                overflow: visible;
+                width: 32px;
+                height: 32px;
+                color: #fff;
+
+                &:hover {
+                    color: #00ACD1;
+                }
+
+                img {
+                    height: 25px;
+                    width: 25px;
+                    margin: 6px 0 0 0;
+                }
+            }
+        }
+    }
+}

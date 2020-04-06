@@ -1,0 +1,2169 @@
+/* SCSS Compiled */
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+*:focus {
+  outline: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+input::-webkit-input-placeholder {
+  color: #ebedec; }
+
+input:focus::-webkit-input-placeholder {
+  color: #ebedec; }
+
+/*@media*/
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+/*@media end*/
+/* Brand Colors ------------------------------------------------*/
+/* wrapper */
+#wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.layout {
+  margin: 0 auto;
+  position: relative;
+  width: 1400px; }
+  @media (max-width: 1920px) {
+    .layout {
+      width: 1400px; } }
+  @media (max-width: 1420px) {
+    .layout {
+      width: 1140px; } }
+  @media (max-width: 1260px) {
+    .layout {
+      width: 1024px; } }
+  @media (max-width: 1024px) {
+    .layout {
+      width: 96%; } }
+
+main {
+  display: block;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; }
+
+#content {
+  position: relative; }
+  @media (max-width: 1000px) {
+    #content section {
+      padding: 85px 0 0 0; } }
+  #content section.contact {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+    display: block; }
+
+.arrow_up {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  display: block;
+  overflow: hidden;
+  margin: 0 -50px 50px 0;
+  z-index: 999;
+  cursor: pointer; }
+  .arrow_up img {
+    height: 45px;
+    width: 45px; }
+  @media (max-width: 1400px) {
+    .arrow_up {
+      margin: 0 -70px 0 0; } }
+  @media (max-width: 1366px) {
+    .arrow_up {
+      margin: 0 -70px 0 0; } }
+  @media (max-width: 1280px) {
+    .arrow_up {
+      margin: 0 -50px 250px 0; } }
+  @media (max-width: 1200px) {
+    .arrow_up {
+      margin: 0 -45px 190px 0; } }
+  @media (max-width: 1024px) {
+    .arrow_up {
+      display: none; } }
+  @media (max-width: 414px) {
+    .arrow_up {
+      display: none; } }
+  @media (max-width: 320px) {
+    .arrow_up {
+      display: none; } }
+
+header {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  height: 92px;
+  background: rgba(255, 253, 247, 0.3); }
+  @media (max-width: 320px) {
+    header {
+      width: 100%;
+      height: 70px; } }
+  header .social-mob {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 7px 10px 0 0; }
+    header .social-mob ul {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      text-align: center; }
+    header .social-mob li {
+      float: right;
+      text-align: left;
+      display: block;
+      overflow: hidden;
+      text-align: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 20px;
+      position: relative;
+      margin: 0 25px 0 0;
+      cursor: pointer;
+      transition: all 0.5s linear;
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -ms-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+      header .social-mob li:hover {
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear; }
+      @media (max-width: 1000px) {
+        header .social-mob li {
+          margin: 20px 25px 0 0; } }
+      @media (max-width: 400px) {
+        header .social-mob li {
+          margin: 20px 12px 0 0; } }
+      header .social-mob li.fb {
+        background-image: url(../images/ico_fb.png); }
+        header .social-mob li.fb:hover {
+          background-image: url(../images/ico_fb_hover.png); }
+      header .social-mob li.inst {
+        background-image: url(../images/ico_instg.png); }
+        header .social-mob li.inst:hover {
+          background-image: url(../images/ico_instg_hover.png); }
+      header .social-mob li.tg {
+        background-image: url(../images/ico_tg.png); }
+        header .social-mob li.tg:hover {
+          background-image: url(../images/ico_tg_hover.png); }
+    @media (max-width: 1000px) {
+      header .social-mob {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        float: right;
+        margin: 0 70px 0 0; } }
+    @media (max-width: 768px) {
+      header .social-mob {
+        text-align: left;
+        float: right;
+        margin: 0 70px 0 0; } }
+    @media (max-width: 500px) {
+      header .social-mob {
+        text-align: left;
+        float: right;
+        margin: 0 25px 0 0; } }
+    @media (max-width: 400px) {
+      header .social-mob {
+        text-align: left;
+        float: right;
+        margin: 0 25px 0 0; } }
+    @media (max-width: 320px) {
+      header .social-mob {
+        margin: 0 auto; } }
+  @media (max-width: 1280px) {
+    header {
+      display: block;
+      position: absolute;
+      overflow: hidden; } }
+  @media (max-width: 1000px) {
+    header {
+      height: 85px;
+      background-color: #70522C;
+      overflow: visible;
+      position: fixed; } }
+  header .bg-rgb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 92px;
+    display: block;
+    overflow: hidden; }
+    @media (max-width: 1000px) {
+      header .bg-rgb {
+        display: none; } }
+  header .logo {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    float: left;
+    width: 230px;
+    margin: 5px 0 0 0; }
+    @media (max-width: 1366px) {
+      header .logo {
+        margin: 5px 0 0 0; } }
+    @media (max-width: 1000px) {
+      header .logo {
+        margin: 0 0 0 25px; } }
+    @media (max-width: 768px) {
+      header .logo {
+        display: block;
+        width: 180px;
+        margin: 15px 50px 0 40px; } }
+    @media (max-width: 700px) {
+      header .logo {
+        display: none; } }
+    @media (max-width: 500px) {
+      header .logo {
+        display: none; } }
+    header .logo img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  header .logo_mob {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 47px; }
+    header .logo_mob h4 {
+      display: none; }
+    header .logo_mob img {
+      display: block;
+      width: 47px;
+      height: 47px; }
+    @media (max-width: 768px) {
+      header .logo_mob {
+        display: none; } }
+    @media (max-width: 700px) {
+      header .logo_mob {
+        display: block;
+        width: 15%;
+        margin: 20px 0 0 25px; } }
+    @media (max-width: 500px) {
+      header .logo_mob {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 15%;
+        margin: 20px 0 0 25px; } }
+    @media (max-width: 414px) {
+      header .logo_mob {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 15%;
+        margin: 15px 0 0 25px; } }
+    @media (max-width: 400px) {
+      header .logo_mob {
+        margin: 15px 0 0 25px; } }
+    @media (max-width: 320px) {
+      header .logo_mob {
+        margin: 20px 0 0 20px; } }
+  header nav {
+    float: right; }
+    @media (max-width: 1400px) {
+      header nav {
+        margin: 0 -20px 0 0; } }
+    @media (max-width: 1300px) {
+      header nav {
+        margin: 0 -20px 0 0; } }
+    @media (max-width: 1280px) {
+      header nav {
+        display: block; } }
+    @media (max-width: 1200px) {
+      header nav {
+        margin: 0 0 0 0; } }
+    @media (max-width: 1000px) {
+      header nav {
+        display: none;
+        top: -85px;
+        margin: 0;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out; } }
+    header nav.open {
+      position: fixed;
+      top: 85px;
+      right: 0;
+      width: 100%;
+      height: 85px;
+      background-color: rgba(112, 82, 44, 0.7);
+      display: block;
+      -webkit-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      @media (max-width: 767px) {
+        header nav.open {
+          width: 50%;
+          height: calc(100vh - 85px); } }
+    header nav ul {
+      display: block;
+      overflow: hidden;
+      width: 100%; }
+      @media (max-width: 1000px) {
+        header nav ul {
+          text-align: center; } }
+      @media (max-width: 767px) {
+        header nav ul {
+          text-align: right; } }
+    header nav li {
+      text-align: left;
+      float: left;
+      margin: 35px 0 0 40px; }
+      @media (max-width: 1280px) {
+        header nav li {
+          margin: 35px 25px 0 0; } }
+      @media (max-width: 1200px) {
+        header nav li {
+          margin: 35px 15px 0 0; } }
+      @media (max-width: 1000px) {
+        header nav li {
+          float: none;
+          display: inline-block; } }
+      @media (max-width: 768px) {
+        header nav li {
+          margin: 35px 42px 0 0; } }
+      @media (max-width: 767px) {
+        header nav li {
+          margin: 35px 0 0 0;
+          float: right;
+          width: 100%;
+          padding: 0 25px 0 25px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          text-align: right; } }
+    header nav a {
+      display: block;
+      overflow: hidden;
+      color: #fff;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 300; }
+      @media (max-width: 1400px) {
+        header nav a {
+          font-size: 16px; } }
+      @media (max-width: 1366px) {
+        header nav a {
+          font-size: 16px; } }
+      header nav a::after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px #00ACD1;
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: -webkit-transform 200ms ease-in-out;
+        transition: -webkit-transform 200ms ease-in-out;
+        -o-transition: transform 200ms ease-in-out;
+        transition: transform 200ms ease-in-out;
+        transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out; }
+      header nav a:hover::after {
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); }
+      header nav a:active {
+        color: #00ACD1; }
+  header .menu-btn {
+    display: none;
+    width: 50px;
+    height: 45px;
+    left: 0;
+    overflow: hidden;
+    margin: 25px 40px 0 0;
+    cursor: pointer; }
+    header .menu-btn.on {
+      display: block; }
+    @media (max-width: 1000px) {
+      header .menu-btn {
+        display: block;
+        float: right; } }
+    @media (max-width: 767px) {
+      header .menu-btn {
+        display: block;
+        float: right; } }
+    @media (max-width: 400px) {
+      header .menu-btn {
+        margin: 25px 24px 0 0; } }
+    header .menu-btn span {
+      width: 100%;
+      height: 3px;
+      background-color: #fff;
+      border-radius: 10px;
+      display: block;
+      overflow: hidden;
+      float: right;
+      margin: 0 0 11px 0; }
+      header .menu-btn span:first-child {
+        width: 50%; }
+      header .menu-btn span:nth-child(2) {
+        width: 75%; }
+      header .menu-btn span:last-child {
+        width: 100%; }
+  header .lang {
+    display: block;
+    overflow: visible;
+    position: absolute;
+    top: -5px;
+    left: calc(55% - 40px);
+    text-align: center;
+    width: 25px;
+    height: 50px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+    header .lang:hover {
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+    @media (max-width: 1000px) {
+      header .lang {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        top: 30px;
+        left: 35%; } }
+    @media (max-width: 768px) {
+      header .lang {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        margin: 0 50px 0 0; } }
+    @media (max-width: 700px) {
+      header .lang {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        margin: 0 0 0 -80px; } }
+    @media (max-width: 550px) {
+      header .lang {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        top: 100px;
+        margin: 0 0 0 -143px; } }
+    @media (max-width: 500px) {
+      header .lang {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        top: 100px;
+        margin: 0 0 0 -140px; } }
+    @media (max-width: 414px) {
+      header .lang {
+        margin: 0 0 0 -120px; } }
+    @media (max-width: 400px) {
+      header .lang {
+        margin: 0 0 0 -105px; } }
+    @media (max-width: 320px) {
+      header .lang {
+        margin: 0 0 0 -90px; } }
+    @media (max-width: 500px) {
+      header .lang.dn {
+        display: none; } }
+    header .lang a {
+      float: left;
+      width: 25px;
+      height: 25px;
+      margin: 0 0 10px 0;
+      -webkit-box-shadow: 0px 5px 10px #545454;
+      box-shadow: 0px 5px 10px #545454;
+      border-radius: 50%; }
+      @media (max-width: 1000px) {
+        header .lang a {
+          display: block;
+          overflow: hidden; } }
+      header .lang a:first-child {
+        margin: 20px 0 10px 0; }
+        @media (max-width: 1000px) {
+          header .lang a:first-child {
+            margin: 1px 20px 0 0; } }
+      header .lang a:hover {
+        -webkit-box-shadow: -0px 5px 10px 1px #bebebe;
+        box-shadow: -0px 5px 10px 1px #bebebe;
+        color: #000000;
+        opacity: 0.5; }
+
+footer {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 208px;
+  background: #70522C;
+  overflow: hidden; }
+  @media (max-width: 1000px) {
+    footer {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      height: auto;
+      margin: -50px 0 0 0; } }
+  @media (max-width: 500px) {
+    footer {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      height: auto;
+      margin: -50px 0 0 0; } }
+  @media (max-width: 320px) {
+    footer {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      height: auto;
+      margin: -50px 0 0 0; } }
+  footer .logotype {
+    float: left;
+    width: 230px;
+    margin: 70px 0 0 0; }
+    @media (max-width: 1366px) {
+      footer .logotype {
+        margin: 60px 0 0 0; } }
+    @media (max-width: 768px) {
+      footer .logotype {
+        display: block;
+        width: 180px;
+        margin: 53px 90px 55px 39px; } }
+    @media (max-width: 500px) {
+      footer .logotype {
+        display: none; } }
+    footer .logotype a {
+      float: left; }
+    footer .logotype img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  footer .logo-mob {
+    float: left;
+    width: 128px;
+    height: 40px;
+    margin: 70px 0 0 0; }
+    @media (max-width: 1920px) {
+      footer .logo-mob {
+        display: none; } }
+    @media (max-width: 768px) {
+      footer .logo-mob {
+        display: none; } }
+    @media (max-width: 500px) {
+      footer .logo-mob {
+        display: block;
+        margin: 30px 30px 0 10px; } }
+    @media (max-width: 414px) {
+      footer .logo-mob {
+        display: block;
+        margin: 31px 0 0 29px; } }
+    @media (max-width: 411px) {
+      footer .logo-mob {
+        display: block;
+        margin: 31px 0 0 29px; } }
+    @media (max-width: 360px) {
+      footer .logo-mob {
+        display: block;
+        margin: 31px 0 0 29px; } }
+    @media (max-width: 320px) {
+      footer .logo-mob {
+        display: block;
+        margin: 31px 0 0 29px; } }
+    footer .logo-mob a {
+      float: left; }
+    footer .logo-mob img {
+      width: 128px;
+      height: 40px; }
+  footer #contacts {
+    float: right;
+    width: 204px;
+    height: 129px;
+    margin-top: 37px;
+    text-align: center; }
+    @media (max-width: 1024px) {
+      footer #contacts {
+        margin: 25px 0 0 0; } }
+    @media (max-width: 1000px) {
+      footer #contacts {
+        margin: 25px 100px 0 0; } }
+    @media (max-width: 768px) {
+      footer #contacts {
+        margin: 31px 99px 0 0; } }
+    @media (max-width: 767px) {
+      footer #contacts {
+        margin: 31px 99px 0 0; } }
+    @media (max-width: 500px) {
+      footer #contacts {
+        margin: 20px 160px 0 0; } }
+    @media (max-width: 414px) {
+      footer #contacts {
+        margin: 16px 115px 0 0; } }
+    @media (max-width: 400px) {
+      footer #contacts {
+        margin: 16px 100px 0 0; } }
+    @media (max-width: 375px) {
+      footer #contacts {
+        margin: 16px 65px 0 0; } }
+    @media (max-width: 320px) {
+      footer #contacts {
+        margin: 16px 25px 0 0; } }
+    footer #contacts .location {
+      position: relative;
+      overflow: hidden;
+      float: left;
+      padding-bottom: 29px; }
+      footer #contacts .location .map-marker {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        float: left;
+        margin: 0 14px 0 0; }
+        footer #contacts .location .map-marker img {
+          width: 25px;
+          height: 25px; }
+      footer #contacts .location p {
+        float: right;
+        font-family: Roboto Condensed;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff; }
+        @media (max-width: 500px) {
+          footer #contacts .location p {
+            margin: 5px 0 0 0;
+            font-size: 14px; } }
+    footer #contacts .phone_number {
+      position: relative;
+      overflow: hidden;
+      float: left; }
+      footer #contacts .phone_number img {
+        width: 25px;
+        height: 25px; }
+      footer #contacts .phone_number .mobile {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        float: left;
+        margin: 0 14px 0 0; }
+      footer #contacts .phone_number ul {
+        float: right;
+        margin: -30px 0 0 0; }
+        @media (max-width: 768px) {
+          footer #contacts .phone_number ul {
+            margin: 0 auto; } }
+        @media (max-width: 500px) {
+          footer #contacts .phone_number ul {
+            margin: -5px 0 0 0; } }
+        footer #contacts .phone_number ul li {
+          text-align: center;
+          color: #ffffff;
+          margin: 7px 0 0 0; }
+          @media (max-width: 768px) {
+            footer #contacts .phone_number ul li {
+              margin: 0 auto; } }
+          footer #contacts .phone_number ul li p {
+            font-family: Roboto Condensed;
+            font-size: 18px;
+            font-weight: 300; }
+            @media (max-width: 768px) {
+              footer #contacts .phone_number ul li p {
+                margin: 7px 0 0 0;
+                font-size: 14px; } }
+            @media (max-width: 500px) {
+              footer #contacts .phone_number ul li p {
+                margin: 7px 0 0 0;
+                font-size: 14px; } }
+      footer #contacts .phone_number a {
+        display: block;
+        position: relative;
+        overflow: visible;
+        margin: 35px 0 0 0; }
+        footer #contacts .phone_number a p {
+          font-family: Roboto Condensed;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 21px;
+          color: #FFFFFF; }
+          @media (max-width: 1366px) {
+            footer #contacts .phone_number a p {
+              font-size: 16px; } }
+          @media (max-width: 500px) {
+            footer #contacts .phone_number a p {
+              font-size: 14px; } }
+  footer .socials {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin: 25px 0 0 86px; }
+    @media (max-width: 1024px) {
+      footer .socials {
+        margin: 15px 50px 0 100px; } }
+    @media (max-width: 1000px) {
+      footer .socials {
+        margin: 0 100px 0 0; } }
+    @media (max-width: 768px) {
+      footer .socials {
+        margin: 15px 100px 0 0; } }
+    @media (max-width: 767px) {
+      footer .socials {
+        margin: 15px 70px 0 0; } }
+    @media (max-width: 500px) {
+      footer .socials {
+        margin: 20px 50px 0 0; } }
+    @media (max-width: 414px) {
+      footer .socials {
+        margin: 20px 15px 0 0; } }
+    @media (max-width: 375px) {
+      footer .socials {
+        margin: 19px 15px 0 0; } }
+    @media (max-width: 320px) {
+      footer .socials {
+        margin: 19px 15px 0 0; } }
+    footer .socials ul {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      position: relative; }
+    footer .socials li {
+      display: block;
+      overflow: hidden;
+      text-align: center;
+      width: 25px;
+      height: 25px;
+      margin: 0 0 10px 0;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.5s linear;
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -ms-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+      @media (max-width: 500px) {
+        footer .socials li {
+          width: 35px;
+          height: 35px; } }
+      @media (max-width: 414px) {
+        footer .socials li {
+          width: 35px;
+          height: 35px; } }
+      @media (max-width: 400px) {
+        footer .socials li {
+          width: 35px;
+          height: 35px; } }
+      @media (max-width: 375px) {
+        footer .socials li {
+          width: 35px;
+          height: 35px; } }
+      @media (max-width: 320px) {
+        footer .socials li {
+          width: 35px;
+          height: 35px; } }
+      footer .socials li:hover {
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear; }
+      footer .socials li:last-child {
+        margin-right: 0; }
+      footer .socials li.fb {
+        background-image: url(../images/ico_fb.png); }
+        footer .socials li.fb:hover {
+          background-image: url(../images/ico_fb_hover.png); }
+      footer .socials li.inst {
+        background-image: url(../images/ico_instg.png); }
+        footer .socials li.inst:hover {
+          background-image: url(../images/ico_instg_hover.png); }
+      footer .socials li.tg {
+        background-image: url(../images/ico_tg.png); }
+        footer .socials li.tg:hover {
+          background-image: url(../images/ico_tg_hover.png); }
+      footer .socials li.yout {
+        background-image: url(../images/youtube.png); }
+        footer .socials li.yout:hover {
+          background-image: url(../images/ico_yt_hover.png); }
+      footer .socials li.prom {
+        background-image: url(../images/prom.png); }
+        footer .socials li.prom:hover {
+          background-image: url(../images/ico_prom_hover.png); }
+      footer .socials li a {
+        display: block;
+        position: absolute;
+        overflow: visible;
+        width: 32px;
+        height: 32px;
+        color: #fff; }
+        footer .socials li a:hover {
+          color: #00ACD1; }
+        footer .socials li a img {
+          height: 25px;
+          width: 25px;
+          margin: 6px 0 0 0; }
+
+.epoxy {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 910px;
+  overflow: hidden;
+  background-color: #70522C; }
+  @media (max-width: 1366px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 619px; } }
+  @media (max-width: 1280px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 619px; } }
+  @media (max-width: 1200px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%; } }
+  @media (max-width: 1024px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 619px; } }
+  @media (max-width: 1000px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 1172px; } }
+  @media (max-width: 768px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 768px;
+      height: 781px; } }
+  @media (max-width: 500px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 771px; } }
+  @media (max-width: 400px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 700px; } }
+  @media (max-width: 320px) {
+    .epoxy {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      width: 320px;
+      height: 420px; } }
+  .epoxy .wooden-table {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 92px 0 0 0;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 910px;
+    top: 0;
+    background: rgba(255, 253, 247, 0.15);
+    z-index: 99; }
+    @media (max-width: 1400px) {
+      .epoxy .wooden-table {
+        margin: 92px -20px 0 0; } }
+    @media (max-width: 1366px) {
+      .epoxy .wooden-table {
+        width: 255px;
+        height: 535px;
+        margin: 92px -15px 0 0; } }
+    @media (max-width: 1300px) {
+      .epoxy .wooden-table {
+        margin: 92px 0px 0 0; } }
+    @media (max-width: 1200px) {
+      .epoxy .wooden-table {
+        margin: 92px 25px 0 0; } }
+    @media (max-width: 1024px) {
+      .epoxy .wooden-table {
+        width: 255px;
+        height: 535px;
+        margin: 92px 15px 0 0; } }
+    @media (max-width: 1000px) {
+      .epoxy .wooden-table {
+        display: none; } }
+    .epoxy .wooden-table .social {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      float: right;
+      padding: 100px 23px 50px 100px; }
+      @media (max-width: 1366px) {
+        .epoxy .wooden-table .social {
+          margin: -80px 0 0 0; } }
+      @media (max-width: 1024px) {
+        .epoxy .wooden-table .social {
+          margin: -80px 0 0 0; } }
+      .epoxy .wooden-table .social li {
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        margin: 0 0 10px 0;
+        border-radius: 20px;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+        .epoxy .wooden-table .social li:hover {
+          transition: all 0.5s linear;
+          -webkit-transition: all 0.5s linear;
+          -moz-transition: all 0.5s linear;
+          -ms-transition: all 0.5s linear;
+          -o-transition: all 0.5s linear; }
+        .epoxy .wooden-table .social li:last-child {
+          margin-right: 0; }
+        .epoxy .wooden-table .social li.fb {
+          background-image: url(../images/ico_fb.png); }
+          .epoxy .wooden-table .social li.fb:hover {
+            background-image: url(../images/ico_fb_hover.png); }
+        .epoxy .wooden-table .social li.inst {
+          background-image: url(../images/ico_instg.png); }
+          .epoxy .wooden-table .social li.inst:hover {
+            background-image: url(../images/ico_instg_hover.png); }
+        .epoxy .wooden-table .social li.tg {
+          background-image: url(../images/ico_tg.png); }
+          .epoxy .wooden-table .social li.tg:hover {
+            background-image: url(../images/ico_tg_hover.png); }
+      .epoxy .wooden-table .social a {
+        display: block;
+        width: 32px;
+        height: 32px; }
+      .epoxy .wooden-table .social img {
+        width: 25px;
+        height: 25px; }
+    .epoxy .wooden-table .wooden {
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      width: 315px;
+      margin: 0 0 0 0;
+      z-index: 1; }
+      @media (max-width: 1366px) {
+        .epoxy .wooden-table .wooden {
+          margin: -45px 0 0 0; } }
+      @media (max-width: 1024px) {
+        .epoxy .wooden-table .wooden {
+          margin: -45px 0 0 0; } }
+      .epoxy .wooden-table .wooden ul {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0; }
+      .epoxy .wooden-table .wooden li {
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 0 50px 0; }
+        @media (max-width: 1366px) {
+          .epoxy .wooden-table .wooden li {
+            margin: 10px 0 0 0;
+            height: 170px; } }
+        @media (max-width: 1024px) {
+          .epoxy .wooden-table .wooden li {
+            margin: 10px 0 0 0;
+            height: 170px; } }
+      .epoxy .wooden-table .wooden a {
+        display: block;
+        overflow: hidden;
+        width: 315px;
+        height: 210px; }
+        @media (max-width: 1366px) {
+          .epoxy .wooden-table .wooden a {
+            width: 255px;
+            height: 170px; } }
+        @media (max-width: 1024px) {
+          .epoxy .wooden-table .wooden a {
+            width: 255px;
+            height: 170px; } }
+  .epoxy .img-box {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 55%;
+    height: 910px;
+    z-index: 2; }
+    @media (max-width: 1366px) {
+      .epoxy .img-box {
+        height: 619px;
+        margin: 0 0 0 -3px; } }
+    @media (max-width: 1280px) {
+      .epoxy .img-box {
+        height: 619px; } }
+    @media (max-width: 1024px) {
+      .epoxy .img-box {
+        height: 619px;
+        margin: 0 0 0 -5px; } }
+    @media (max-width: 1000px) {
+      .epoxy .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 870px;
+        height: 1172px;
+        margin: 0 auto; } }
+    @media (max-width: 768px) {
+      .epoxy .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 768px;
+        height: 781px; } }
+    @media (max-width: 700px) {
+      .epoxy .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        max-width: auto;
+        height: 781px;
+        left: -19%; } }
+    @media (max-width: 500px) {
+      .epoxy .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 730px;
+        height: 781px;
+        left: -50%; } }
+    @media (max-width: 400px) {
+      .epoxy .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: 730px;
+        height: 700px;
+        left: -50%; } }
+    @media (max-width: 320px) {
+      .epoxy .img-box {
+        width: 400px;
+        height: 420px;
+        margin: 0 0 0 80px; } }
+    .epoxy .img-box img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0 0 0 2px; }
+      @media (max-width: 768px) {
+        .epoxy .img-box img {
+          margin: 0 0 0 0; } }
+  .epoxy .title {
+    display: block;
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    top: 570px;
+    z-index: 20;
+    text-align: center; }
+    @media (max-width: 1366px) {
+      .epoxy .title {
+        text-align: center;
+        margin: -160px 0 0 0; } }
+    @media (max-width: 1280px) {
+      .epoxy .title {
+        text-align: center;
+        margin: -160px 0 0 0; } }
+    @media (max-width: 1024px) {
+      .epoxy .title {
+        margin: -160px 0 0 0;
+        height: 100px; } }
+    @media (max-width: 1000px) {
+      .epoxy .title {
+        text-align: right;
+        margin: 180px 0 0 0; } }
+    @media (max-width: 768px) {
+      .epoxy .title {
+        margin: 60px 0 0 -40px; } }
+    @media (max-width: 700px) {
+      .epoxy .title {
+        top: 475px; } }
+    @media (max-width: 500px) {
+      .epoxy .title {
+        top: 430px; } }
+    @media (max-width: 320px) {
+      .epoxy .title {
+        margin: -70px 0 0 -25px; } }
+    .epoxy .title img {
+      width: 451px;
+      height: 226px; }
+      @media (max-width: 1366px) {
+        .epoxy .title img {
+          width: 283px;
+          height: 140px; } }
+      @media (max-width: 768px) {
+        .epoxy .title img {
+          width: 283px;
+          height: 140px; } }
+      @media (max-width: 320px) {
+        .epoxy .title img {
+          width: 200px;
+          height: 110px; } }
+    .epoxy .title h3 {
+      display: none; }
+
+.about_us {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 489px;
+  margin: 100px 0 0 0; }
+  @media (max-width: 768px) {
+    .about_us {
+      margin: 55px 0 0 0; } }
+  @media (max-width: 500px) {
+    .about_us {
+      text-align: left;
+      height: 389px;
+      margin: 73px 0 0 0; } }
+  .about_us .title {
+    position: relative;
+    text-align: center; }
+    .about_us .title img {
+      width: 306px;
+      height: 152px; }
+      @media (max-width: 1366px) {
+        .about_us .title img {
+          width: 202px;
+          height: 100px; } }
+    .about_us .title h3 {
+      display: none; }
+  .about_us .text {
+    position: relative;
+    width: 638px;
+    height: 297px;
+    margin: 0 auto; }
+    @media (max-width: 414px) {
+      .about_us .text {
+        width: 100%;
+        height: 389px;
+        margin: 0 0 0 0; } }
+    .about_us .text p {
+      position: relative;
+      text-align: left;
+      font-family: Roboto Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000; }
+      @media (max-width: 500px) {
+        .about_us .text p {
+          font-family: Roboto Condensed;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: left;
+          margin: 0 16px 0 16px; } }
+
+.our_products {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: 100px 0 0 0; }
+  @media (max-width: 768px) {
+    .our_products {
+      margin: 40px 0 0 0; } }
+  @media (max-width: 500px) {
+    .our_products {
+      margin: 50px 0 0 0; } }
+  .our_products .title {
+    position: relative;
+    margin: 0 0 27px 0;
+    text-align: center; }
+    .our_products .title img {
+      width: 289px;
+      height: 153px; }
+      @media (max-width: 1366px) {
+        .our_products .title img {
+          width: 202px;
+          height: 100px; } }
+    @media (max-width: 1000px) {
+      .our_products .title {
+        margin: 0 0 37px 0; } }
+    .our_products .title h3 {
+      display: none; }
+  .our_products .chair {
+    display: block;
+    position: relative;
+    overflow: visible;
+    width: 1120px;
+    margin: 0 auto; }
+    @media (max-width: 1280px) {
+      .our_products .chair {
+        margin: 0 0 0 240px; } }
+    @media (max-width: 1024px) {
+      .our_products .chair {
+        margin: 0 0 0 210px;
+        width: 100%; } }
+    @media (max-width: 1000px) {
+      .our_products .chair {
+        margin: 0 0 0 -20px;
+        width: 100%; } }
+    @media (max-width: 768px) {
+      .our_products .chair {
+        margin: 0 0 0 -16px;
+        width: 768px; } }
+    @media (max-width: 766px) {
+      .our_products .chair {
+        margin: 0 0 0 -53px; } }
+    @media (max-width: 700px) {
+      .our_products .chair {
+        margin: 0 0 0 -120px; } }
+    @media (max-width: 600px) {
+      .our_products .chair {
+        margin: 0 0 0 -197px; } }
+    @media (max-width: 550px) {
+      .our_products .chair {
+        margin: 0 0 0 -240px; } }
+    @media (max-width: 500px) {
+      .our_products .chair {
+        margin: 0 0 0 -40px; } }
+    @media (max-width: 414px) {
+      .our_products .chair {
+        margin: 0 0 0 -60px; } }
+    @media (max-width: 400px) {
+      .our_products .chair {
+        margin: 0 0 0 -90px; } }
+    @media (max-width: 320px) {
+      .our_products .chair {
+        margin: 0 0 0 -68px; } }
+    .our_products .chair ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      position: relative;
+      width: 100%; }
+      @media (max-width: 1280px) {
+        .our_products .chair ul {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          margin: -37px 0 0 0; } }
+      @media (max-width: 1000px) {
+        .our_products .chair ul {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          margin: -37px 0 0 0; } }
+      @media (max-width: 700px) {
+        .our_products .chair ul {
+          left: 0; } }
+      .our_products .chair ul li {
+        width: 545px;
+        height: 420px;
+        margin: 0 0 30px;
+        overflow: hidden; }
+        @media (max-width: 1000px) {
+          .our_products .chair ul li {
+            width: 100%;
+            min-height: 619px;
+            margin: 0 0 0 50px; } }
+        @media (max-width: 768px) {
+          .our_products .chair ul li {
+            width: 768px;
+            margin: 0 0 -2px 0; } }
+        @media (max-width: 500px) {
+          .our_products .chair ul li {
+            width: 100%;
+            margin: 0 0 -120px 46px; } }
+        @media (max-width: 414px) {
+          .our_products .chair ul li {
+            width: 70%;
+            height: 400px;
+            margin: 0 0 -220px 0; } }
+        @media (max-width: 320px) {
+          .our_products .chair ul li {
+            margin: 0 0 -220px 0; } }
+        .our_products .chair ul li .figure {
+          margin: 330px 12px 10px 0;
+          bottom: 10px;
+          right: 10px; }
+        @media (max-width: 1024px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 15%;
+            bottom: 20px; } }
+        @media (max-width: 768px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 15%;
+            bottom: 20px; } }
+        @media (max-width: 414px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 20%;
+            bottom: 20px; } }
+        @media (max-width: 411px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 20%;
+            bottom: 20px; } }
+        @media (max-width: 360px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 22%;
+            bottom: 20px; } }
+        @media (max-width: 320px) {
+          .our_products .chair ul li:nth-child(3n) .figure {
+            left: 17%;
+            bottom: 20px; } }
+        .our_products .chair ul li:nth-child(2n) .figure {
+          margin: 330px 0 12px 10px;
+          bottom: 10px;
+          left: 10px; }
+          @media (max-width: 1024px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 38px 55px; } }
+          @media (max-width: 768px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 38px 100px; } }
+          @media (max-width: 414px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 0 145px; } }
+          @media (max-width: 411px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 0 155px; } }
+          @media (max-width: 375px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 0 165px; } }
+          @media (max-width: 360px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 0 165px; } }
+          @media (max-width: 320px) {
+            .our_products .chair ul li:nth-child(2n) .figure {
+              margin: 0 0 0 125px; } }
+        @media (max-width: 1280px) {
+          .our_products .chair ul li:nth-child(2n) {
+            display: none; } }
+        @media (max-width: 1000px) {
+          .our_products .chair ul li:nth-child(2n) {
+            display: none; } }
+        @media (max-width: 700px) {
+          .our_products .chair ul li:nth-child(2n) {
+            display: none; } }
+        .our_products .chair ul li:nth-child(5), .our_products .chair ul li:nth-child(6), .our_products .chair ul li:nth-child(7), .our_products .chair ul li:nth-child(8) {
+          display: none; }
+        .our_products .chair ul li a {
+          display: block;
+          overflow: hidden;
+          position: relative;
+          width: 545px;
+          height: 420px; }
+          @media (max-width: 1000px) {
+            .our_products .chair ul li a {
+              width: 768px;
+              height: 619px; } }
+          @media (max-width: 500px) {
+            .our_products .chair ul li a {
+              width: 768px;
+              height: 500px; } }
+          @media (max-width: 320px) {
+            .our_products .chair ul li a {
+              width: 768px;
+              height: 440px; } }
+          .our_products .chair ul li a img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear; }
+            .our_products .chair ul li a img:hover {
+              -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              transform: scale(1.1);
+              transition: all 0.5s linear;
+              -webkit-transition: all 0.5s linear;
+              -moz-transition: all 0.5s linear;
+              -ms-transition: all 0.5s linear;
+              -o-transition: all 0.5s linear; }
+            @media (max-width: 500px) {
+              .our_products .chair ul li a img {
+                width: 60%;
+                height: 500px; } }
+            @media (max-width: 414px) {
+              .our_products .chair ul li a img {
+                width: 70%;
+                height: 400px;
+                margin: 0 0 0 -14px; } }
+            @media (max-width: 400px) {
+              .our_products .chair ul li a img {
+                width: 70%;
+                height: 400px;
+                margin: 0 0 0 15px; } }
+            @media (max-width: 320px) {
+              .our_products .chair ul li a img {
+                width: 70%;
+                height: 400px;
+                margin: 0 0 0 -14px; } }
+          .our_products .chair ul li a .figure {
+            position: absolute;
+            display: block;
+            overflow: hidden;
+            z-index: 2;
+            padding: 5px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            height: 71px;
+            width: 180px; }
+            @media (max-width: 1024px) {
+              .our_products .chair ul li a .figure {
+                margin: 0 50px 38px 0; } }
+            @media (max-width: 1000px) {
+              .our_products .chair ul li a .figure {
+                margin: 0 100px 38px 0; } }
+            @media (max-width: 500px) {
+              .our_products .chair ul li a .figure {
+                left: 15%;
+                right: 0; } }
+            @media (max-width: 414px) {
+              .our_products .chair ul li a .figure {
+                left: 20%;
+                right: 0;
+                top: 60%; } }
+            @media (max-width: 400px) {
+              .our_products .chair ul li a .figure {
+                left: 23%;
+                right: 0;
+                top: 60%; } }
+            @media (max-width: 320px) {
+              .our_products .chair ul li a .figure {
+                left: 17%;
+                right: 0;
+                top: 70%; } }
+            .our_products .chair ul li a .figure .left {
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
+              margin: 10px 0 18px 5px;
+              border-right: 1px solid #fff; }
+              @media (max-width: 500px) {
+                .our_products .chair ul li a .figure .left {
+                  margin: 10px 0 18px 5px; } }
+              .our_products .chair ul li a .figure .left h4 {
+                font-family: Roboto Condensed sans-serif;
+                text-align: right;
+                color: #FFFFFF;
+                margin: 0 5px 0 0;
+                font-family: Roboto Condensed;
+                font-style: normal;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: right;
+                font-weight: 300; }
+            .our_products .chair ul li a .figure .right {
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
+              line-height: 21px;
+              font-weight: bold;
+              margin: 0 0 18px 0;
+              font-weight: bold;
+              font-size: 18px; }
+              @media (max-width: 500px) {
+                .our_products .chair ul li a .figure .right {
+                  margin: 0 0 18px 0; } }
+              .our_products .chair ul li a .figure .right p {
+                font-family: Roboto Condensed;
+                color: #FFFFFF; }
+  .our_products .arrow_down {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer; }
+    .our_products .arrow_down img {
+      width: 60px;
+      height: 60px; }
+
+.advantages {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 66px;
+  height: 646px;
+  background: url(../images/wave.png);
+  background-repeat: round;
+  margin: 100px 0 0 0; }
+  @media (max-width: 1366px) {
+    .advantages {
+      background: url(../images/wave1366.png);
+      background-repeat: no-repeat; } }
+  @media (max-width: 768px) {
+    .advantages {
+      background: url(../images/wave768.png);
+      background-repeat: no-repeat; } }
+  @media (max-width: 1000px) {
+    .advantages {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 306px;
+      margin: 100px 0 0 0;
+      background: url(../images/wave768.png);
+      background-repeat: round; } }
+  @media (max-width: 700px) {
+    .advantages {
+      display: block;
+      overflow: hidden;
+      position: relative; } }
+  @media (max-width: 500px) {
+    .advantages {
+      background: none;
+      width: 100%;
+      height: 650px;
+      margin: 55px 0 0 0; } }
+  .advantages .title {
+    position: relative;
+    text-align: center; }
+    .advantages .title img {
+      width: 406px;
+      height: 156px; }
+      @media (max-width: 1366px) {
+        .advantages .title img {
+          width: 230px;
+          height: 100px; } }
+    @media (max-width: 1000px) {
+      .advantages .title {
+        margin: -85px 0 0 0; } }
+    .advantages .title h3 {
+      display: none; }
+  .advantages ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 68px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 100px 0 0 0; }
+    @media (max-width: 1366px) {
+      .advantages ul {
+        margin: 60px 0 0 0; } }
+    @media (max-width: 1000px) {
+      .advantages ul {
+        margin: 20px 0 0 0; } }
+    @media (max-width: 500px) {
+      .advantages ul {
+        display: block;
+        position: relative;
+        overflow: visible;
+        background-color: #D1C0A2; } }
+    @media (max-width: 414px) {
+      .advantages ul {
+        display: block;
+        position: relative;
+        overflow: visible;
+        width: 414px;
+        height: 380px;
+        background-color: #D1C0A2;
+        margin: 20px 0 0 -10px; } }
+    .advantages ul li {
+      position: relative;
+      overflow: visible;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 0px; }
+      @media (max-width: 1366px) {
+        .advantages ul li {
+          width: 170px;
+          height: 170px; } }
+      @media (max-width: 1000px) {
+        .advantages ul li {
+          width: 112px;
+          height: 111px; } }
+      @media (max-width: 500px) {
+        .advantages ul li {
+          border: none; } }
+      @media (max-width: 414px) {
+        .advantages ul li {
+          border: none;
+          margin: 0 0 -40px 0; } }
+      @media (max-width: 320px) {
+        .advantages ul li {
+          border: none;
+          margin: 0 0 -40px 0; } }
+    .advantages ul span {
+      width: 66px;
+      height: 84px;
+      float: right;
+      margin: 21px -25px 0 0; }
+      @media (max-width: 1366px) {
+        .advantages ul span {
+          width: 54px;
+          height: 84px;
+          margin: 23px -14px 0 0; } }
+      @media (max-width: 768px) {
+        .advantages ul span {
+          width: 25px;
+          height: 41px;
+          margin: 10px 15px 0 0; } }
+      @media (max-width: 500px) {
+        .advantages ul span {
+          margin: 30px 40px 0 0; } }
+      @media (max-width: 414px) {
+        .advantages ul span {
+          margin: 30px 40px -5px 0; } }
+      .advantages ul span img {
+        display: block;
+        position: relative;
+        overflow: hidden; }
+        .advantages ul span img.pc {
+          display: block; }
+          @media (max-width: 500px) {
+            .advantages ul span img.pc {
+              display: none; } }
+        .advantages ul span img.mob {
+          display: none; }
+          @media (max-width: 500px) {
+            .advantages ul span img.mob {
+              display: block; } }
+    .advantages ul p {
+      position: relative;
+      overflow: visible;
+      margin: 117px 0 0 25px;
+      font-family: Blogger Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      text-align: left;
+      color: #353535;
+      text-shadow: 0px 5px 10px #545454; }
+      @media (max-width: 1366px) {
+        .advantages ul p {
+          font-family: Blogger Sans, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          margin: 90px 0 0 26px;
+          text-align: left; } }
+      @media (max-width: 1000px) {
+        .advantages ul p {
+          position: absolute;
+          font-size: 20px;
+          text-align: left;
+          margin: 60px 0 0 7px; } }
+      @media (max-width: 500px) {
+        .advantages ul p {
+          text-align: left;
+          margin: 30px 0 0 100px;
+          font-size: 20px;
+          width: 100px; } }
+      @media (max-width: 414px) {
+        .advantages ul p {
+          text-align: left;
+          width: 120px;
+          height: 44px;
+          line-height: 109%;
+          margin: 30px 0 0 100px;
+          font-size: 20px; } }
+
+.prices {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 512px;
+  width: 100%;
+  padding-bottom: 100px;
+  margin: 100px 0 0 0; }
+  @media (max-width: 1280px) {
+    .prices {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 500px) {
+    .prices {
+      margin: 0 0 0 0; } }
+  @media (max-width: 414px) {
+    .prices {
+      margin: -220px 0 50px 0; } }
+  @media (max-width: 411px) {
+    .prices {
+      margin: -220px 0 50px 0; } }
+  @media (max-width: 400px) {
+    .prices {
+      margin: -220px 0 50px 0; } }
+  .prices .title {
+    position: relative;
+    text-align: center; }
+    @media (max-width: 1000px) {
+      .prices .title {
+        margin: 0 0 53px 0; } }
+    .prices .title img {
+      width: 235px;
+      height: 154px; }
+      @media (max-width: 1300px) {
+        .prices .title img {
+          width: 150px;
+          height: 100px; } }
+    .prices .title h3 {
+      display: none; }
+  .prices .price {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 53px; }
+    @media (max-width: 1024px) {
+      .prices .price {
+        margin: 50px 60px 0 0; } }
+    @media (max-width: 1000px) {
+      .prices .price {
+        margin: -37px 0 0 0; } }
+    @media (max-width: 414px) {
+      .prices .price {
+        margin: 0 0 0 -10px;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 500px; } }
+    .prices .price .tables {
+      display: block;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      margin: -42px -28px 0 0;
+      z-index: 9999;
+      width: 430px;
+      height: 83px;
+      background: rgba(112, 82, 44, 0.7);
+      opacity: 0.9;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px 10px 10px 10px; }
+      @media (max-width: 1400px) {
+        .prices .price .tables {
+          margin: -50px 315px 0 200px;
+          width: 264px; } }
+      @media (max-width: 1366px) {
+        .prices .price .tables {
+          margin: -50px 315px 0 200px;
+          width: 264px; } }
+      @media (max-width: 1200px) {
+        .prices .price .tables {
+          width: 260px;
+          height: 83px;
+          margin: -50px 318px 0 194px; } }
+      @media (max-width: 950px) {
+        .prices .price .tables {
+          width: 265px;
+          margin: -50px 410px 0 290px; } }
+      @media (max-width: 768px) {
+        .prices .price .tables {
+          width: 265px;
+          margin: -60px 360px 0 250px; } }
+      @media (max-width: 550px) {
+        .prices .price .tables {
+          width: 100%;
+          margin: -155px 359px 0 241px; } }
+      @media (max-width: 500px) {
+        .prices .price .tables {
+          margin: -155px 358px 0 240px;
+          background: rgba(112, 82, 44, 0.7); } }
+      @media (max-width: 414px) {
+        .prices .price .tables {
+          margin: -156px 358px 0 240px;
+          width: 100%; } }
+      @media (max-width: 320px) {
+        .prices .price .tables {
+          margin: -155px 356px 0 240px;
+          width: 100%; } }
+      .prices .price .tables p {
+        display: inline-block;
+        overflow: hidden;
+        float: left;
+        font-family: Roboto Condensed;
+        font-size: 18px;
+        line-height: 19px;
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+        padding: 20px 30px 20px 30px; }
+        @media (max-width: 1400px) {
+          .prices .price .tables p {
+            padding: 20px 10px 20px 10px;
+            font-size: 16px; } }
+        @media (max-width: 1200px) {
+          .prices .price .tables p {
+            padding: 20px 10px 20px 9px;
+            font-size: 16px; } }
+        @media (max-width: 500px) {
+          .prices .price .tables p {
+            margin: 0 -35px 0 50px; } }
+        @media (max-width: 414px) {
+          .prices .price .tables p {
+            margin: 0 -35px 0 50px; } }
+        @media (max-width: 411px) {
+          .prices .price .tables p {
+            margin: 0 -35px 0 50px; } }
+        @media (max-width: 375px) {
+          .prices .price .tables p {
+            margin: 0 -30px 0 40px; } }
+        @media (max-width: 360px) {
+          .prices .price .tables p {
+            margin: 0 -30px 0 40px; } }
+        @media (max-width: 320px) {
+          .prices .price .tables p {
+            margin: 0 -15px 0 20px; } }
+        .prices .price .tables p:nth-child(2) {
+          border-left: 2px solid #fff;
+          border-right: 2px solid #fff;
+          padding: 20px 30px 20px 30px;
+          font-family: Blogger Sans;
+          font-size: 26px; }
+          @media (max-width: 1400px) {
+            .prices .price .tables p:nth-child(2) {
+              padding: 20px 10px 20px 10px;
+              font-family: Blogger Sans;
+              font-size: 24px; } }
+          @media (max-width: 1366px) {
+            .prices .price .tables p:nth-child(2) {
+              font-family: Blogger Sans;
+              font-size: 24px; } }
+          @media (max-width: 1200px) {
+            .prices .price .tables p:nth-child(2) {
+              font-family: Blogger Sans;
+              font-size: 24px; } }
+    .prices .price .cost {
+      position: relative;
+      display: inline-block;
+      overflow: visible;
+      width: 430px;
+      height: 310px;
+      vertical-align: top;
+      margin: 0 20px 0 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      @media (max-width: 1366px) {
+        .prices .price .cost {
+          margin: 0 -80px 0 -30px; } }
+      @media (max-width: 1200px) {
+        .prices .price .cost {
+          margin: 0 -87px 0 -15px; } }
+      @media (max-width: 1000px) {
+        .prices .price .cost {
+          margin: 0 -50px 0 -50px; } }
+      @media (max-width: 950px) {
+        .prices .price .cost {
+          margin: 0 -50px 0 -50px;
+          width: 768px; } }
+      @media (max-width: 768px) {
+        .prices .price .cost {
+          margin: 0 auto;
+          width: 100%; } }
+      @media (max-width: 550px) {
+        .prices .price .cost {
+          width: 100%;
+          margin: 0 0 -53px 0; } }
+      @media (max-width: 414px) {
+        .prices .price .cost {
+          width: 100%;
+          margin: 0 0 -26px 0; } }
+      @media (max-width: 400px) {
+        .prices .price .cost {
+          width: 100%;
+          margin: 0 0 -60px 0; } }
+      @media (max-width: 320px) {
+        .prices .price .cost {
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0 0 -88px 0; } }
+      .prices .price .cost:last-child .tables {
+        right: -226px; }
+        @media (max-width: 1400px) {
+          .prices .price .cost:last-child .tables {
+            right: -358px; } }
+      .prices .price .cost:last-child .img-box {
+        float: right; }
+      .prices .price .cost:first-child .tables {
+        left: -261px; }
+        @media (max-width: 1400px) {
+          .prices .price .cost:first-child .tables {
+            left: -240px; } }
+      .prices .price .cost .img-box {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        width: 430px;
+        height: 310px; }
+        @media (max-width: 1366px) {
+          .prices .price .cost .img-box {
+            width: 365px;
+            height: 260px; } }
+        @media (max-width: 1200px) {
+          .prices .price .cost .img-box {
+            width: 365px;
+            height: 260px; } }
+        @media (max-width: 950px) {
+          .prices .price .cost .img-box {
+            margin: 0 100px 0 100px; } }
+        @media (max-width: 768px) {
+          .prices .price .cost .img-box {
+            width: 449px;
+            height: 257px;
+            margin: 0 50px 0 50px; } }
+        @media (max-width: 550px) {
+          .prices .price .cost .img-box {
+            margin: 0 auto;
+            width: 550px; } }
+        @media (max-width: 500px) {
+          .prices .price .cost .img-box {
+            width: 100%;
+            height: auto;
+            margin: 0 auto; } }
+        @media (max-width: 414px) {
+          .prices .price .cost .img-box {
+            width: 100%;
+            height: 285px;
+            margin: 0 auto; } }
+        @media (max-width: 400px) {
+          .prices .price .cost .img-box {
+            width: 100%;
+            height: 250px;
+            margin: 0 auto; } }
+        @media (max-width: 320px) {
+          .prices .price .cost .img-box {
+            width: 320px;
+            height: 240px;
+            margin: 0 175px 0 4px; } }
+        .prices .price .cost .img-box img {
+          width: 100%;
+          height: 100%;
+          display: block; }
+  .prices .go_top {
+    position: relative;
+    bottom: -80px;
+    right: -56%;
+    width: 45px;
+    height: 45px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 5;
+    cursor: pointer; }
+    .prices .go_top img {
+      height: 45px;
+      width: 45px; }
+    @media (max-width: 1920px) {
+      .prices .go_top {
+        display: none; } }
+    @media (max-width: 1400px) {
+      .prices .go_top {
+        display: none; } }
+    @media (max-width: 1300px) {
+      .prices .go_top {
+        display: none; } }
+    @media (max-width: 1280px) {
+      .prices .go_top {
+        display: none; } }
+    @media (max-width: 1024px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -47%;
+        top: 100px; } }
+    @media (max-width: 768px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -45%;
+        top: -55px; } }
+    @media (max-width: 500px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -33%;
+        top: 3px; } }
+    @media (max-width: 414px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -40%;
+        top: 3px; } }
+    @media (max-width: 375px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -40%;
+        top: 4px; } }
+    @media (max-width: 360px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -39%;
+        top: 4px; } }
+    @media (max-width: 320px) {
+      .prices .go_top {
+        display: block;
+        position: relative;
+        right: -38%;
+        top: 3px; } }

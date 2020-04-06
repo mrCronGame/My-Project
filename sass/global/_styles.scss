@@ -1,0 +1,105 @@
+/* wrapper */
+#wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.layout {
+    margin: 0 auto;
+    position: relative;
+    width: 1400px;
+
+    @media (max-width:1920px) {
+        width: 1400px;
+    }
+
+    @media (max-width:1420px) {
+        width: 1140px;
+    }
+
+    @media (max-width:1260px) {
+        width: 1024px;
+    }
+
+    @media (max-width:1024px) {
+        width: 96%;
+    }
+
+}
+
+main {
+    display: block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+#content {
+    position: relative;
+
+    @media (max-width: 1000px) {
+        section {
+            padding: 85px 0 0 0;
+        }
+    }
+
+    section.contact {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        overflow: hidden;
+        display: block;
+    }
+}
+
+.arrow_up {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    display: block;
+    overflow: hidden;
+    margin: 0 -50px 50px 0;
+    z-index: 999;
+    cursor: pointer;
+
+    img {
+        height: 45px;
+        width: 45px;
+    }
+
+    @media (max-width: 1400px) {
+        margin: 0 -70px 0 0;
+    }
+
+    @media (max-width: 1366px) {
+        margin: 0 -70px 0 0;
+    }
+
+    @media (max-width: 1280px) {
+        margin: 0 -50px 250px 0;
+    }
+
+    @media (max-width: 1200px) {
+        margin: 0 -45px 190px 0;
+    }
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+
+    @media (max-width: 414px) {
+        display: none;
+    }
+
+    @media (max-width: 320px) {
+        display: none;
+    }
+}

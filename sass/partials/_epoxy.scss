@@ -1,0 +1,419 @@
+.epoxy {
+    @include box;
+    position: relative;
+    height: 910px;
+    overflow: hidden;
+    background-color: #70522C;
+
+    @media (max-width: 1366px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 619px;
+    }
+
+    @media (max-width: 1280px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 619px;
+    }
+
+    @media (max-width: 1200px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    @media (max-width: 1024px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 619px;
+    }
+
+    @media (max-width: 1000px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 1172px;
+    }
+
+    @media (max-width: 768px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 768px;
+        height: 781px;
+    }
+
+    @media (max-width: 500px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 771px;
+    }
+
+    @media (max-width: 400px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 700px;
+    }
+
+    @media (max-width: 320px) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 320px;
+        height: 420px;
+    }
+
+    .wooden-table {
+        box-sizing: border-box;
+        margin: 92px 0 0 0;
+        float: right;
+        position: relative;
+        overflow: hidden;
+        width: 315px;
+        height: 910px;
+        top: 0;
+        background: rgba(255, 253, 247, 0.15);
+        z-index: 99;
+
+        @media (max-width: 1400px) {
+            margin: 92px -20px 0 0;
+        }
+
+        @media (max-width: 1366px) {
+            width: 255px;
+            height: 535px;
+            margin: 92px -15px 0 0;
+        }
+
+        @media (max-width: 1300px) {
+            margin: 92px 0px 0 0;
+        }
+
+        @media (max-width: 1200px) {
+            margin: 92px 25px 0 0;
+        }
+
+        @media (max-width: 1024px) {
+            width: 255px;
+            height: 535px;
+            margin: 92px 15px 0 0;
+        }
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
+
+        .social {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            float: right;
+            padding: 100px 23px 50px 100px;
+
+            @media (max-width: 1366px) {
+                margin: -80px 0 0 0;
+            }
+
+            @media (max-width: 1024px) {
+                margin: -80px 0 0 0;
+            }
+
+            li {
+                display: block;
+                overflow: hidden;
+                text-align: center;
+                width: 25px;
+                height: 25px;
+                margin: 0 0 10px 0;
+                border-radius: 20px;
+                position: relative;
+                cursor: pointer;
+                transition: all 0.5s linear;
+                -webkit-transition: all 0.5s linear;
+                -moz-transition: all 0.5s linear;
+                -ms-transition: all 0.5s linear;
+                -o-transition: all 0.5s linear;
+                background-position: 0 0;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+                &:hover {
+                    transition: all 0.5s linear;
+                    -webkit-transition: all 0.5s linear;
+                    -moz-transition: all 0.5s linear;
+                    -ms-transition: all 0.5s linear;
+                    -o-transition: all 0.5s linear;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &.fb {
+                    background-image: url(../images/ico_fb.png);
+
+                    &:hover {
+                        background-image: url(../images/ico_fb_hover.png);
+                    }
+                }
+
+                &.inst {
+                    background-image: url(../images/ico_instg.png);
+
+                    &:hover {
+                        background-image: url(../images/ico_instg_hover.png);
+                    }
+                }
+
+                &.tg {
+                    background-image: url(../images/ico_tg.png);
+
+                    &:hover {
+                        background-image: url(../images/ico_tg_hover.png);
+                    }
+                }
+            }
+
+            a {
+                display: block;
+                width: 32px;
+                height: 32px;
+            }
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .wooden {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            width: 315px;
+            margin: 0 0 0 0;
+            z-index: 1;
+
+            @media (max-width: 1366px) {
+                margin: -45px 0 0 0;
+            }
+
+            @media (max-width: 1024px) {
+                margin: -45px 0 0 0;
+            }
+
+            ul {
+                @include box;
+                margin: 0 0 0 0;
+                padding: 0 0 0 0;
+
+            }
+
+            li {
+                display: block;
+                overflow: hidden;
+                text-align: center;
+                margin: 0 0 50px 0;
+
+                @media (max-width: 1366px) {
+                    margin: 10px 0 0 0;
+                    height: 170px;
+                }
+
+                @media (max-width: 1024px) {
+                    margin: 10px 0 0 0;
+                    height: 170px;
+                }
+            }
+
+            a {
+                display: block;
+                overflow: hidden;
+                width: 315px;
+                height: 210px;
+
+                @media (max-width: 1366px) {
+                    width: 255px;
+                    height: 170px;
+                }
+
+                @media (max-width: 1024px) {
+                    width: 255px;
+                    height: 170px;
+                }
+            }
+        }
+    }
+
+    .img-box {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        width: 55%;
+        height: 910px;
+        z-index: 2;
+
+        @media (max-width: 1366px) {
+            height: 619px;
+            margin: 0 0 0 -3px;
+        }
+
+        @media (max-width: 1280px) {
+            height: 619px;
+        }
+
+        @media (max-width: 1024px) {
+            height: 619px;
+            margin: 0 0 0 -5px;
+        }
+
+        @media (max-width: 1000px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 870px;
+            height: 1172px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 768px;
+            height: 781px;
+        }
+
+
+        @media (max-width: 700px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            max-width: auto;
+            height: 781px;
+            left: -19%;
+        }
+
+        @media (max-width: 500px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 730px;
+            height: 781px;
+            left: -50%;
+        }
+
+        @media (max-width: 400px) {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 730px;
+            height: 700px;
+            left: -50%;
+        }
+
+        @media (max-width: 320px) {
+            width: 400px;
+            height: 420px;
+            margin: 0 0 0 80px;
+
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 0 0 0 2px;
+
+            @media (max-width: 768px) {
+                margin: 0 0 0 0;
+            }
+        }
+    }
+
+    .title {
+        display: block;
+        overflow: visible;
+        position: absolute;
+        width: 100%;
+        top: 570px;
+        z-index: 20;
+        text-align: center;
+
+        @media (max-width: 1366px) {
+            text-align: center;
+            margin: -160px 0 0 0;
+        }
+
+        @media (max-width: 1280px) {
+            text-align: center;
+            margin: -160px 0 0 0;
+        }
+
+        @media (max-width: 1024px) {
+            margin: -160px 0 0 0;
+            height: 100px;
+        }
+
+        @media (max-width: 1000px) {
+            text-align: right;
+            margin: 180px 0 0 0;
+        }
+
+        @media (max-width: 768px) {
+            margin: 60px 0 0 -40px;
+        }
+
+        @media (max-width: 700px) {
+            top: 475px;
+        }
+
+        @media (max-width: 500px) {
+            top: 430px;
+        }
+
+        @media (max-width: 320px) {
+            margin: -70px 0 0 -25px;
+        }
+
+        img {
+            width: 451px;
+            height: 226px;
+
+            @media (max-width: 1366px) {
+                width: 283px;
+                height: 140px;
+            }
+
+            @media (max-width: 768px) {
+                width: 283px;
+                height: 140px;
+            }
+
+            @media (max-width: 320px) {
+                width: 200px;
+                height: 110px;
+            }
+        }
+
+        h3 {
+            display: none;
+        }
+    }
+}
